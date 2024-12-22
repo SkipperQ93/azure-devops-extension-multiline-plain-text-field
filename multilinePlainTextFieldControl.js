@@ -3,14 +3,12 @@
         var fieldName = VSS.getConfiguration().witInputs.Field;
         var rows = VSS.getConfiguration().witInputs.Rows;
 
-        var heightInPixels = rows * 20 + 6;
-        // VSS.resize("auto", "auto");
-
         var multilinePlainTextField = document.getElementById('multilineHtmlField');
         multilinePlainTextField.rows = rows;
 
         service.getFieldValue(fieldName).then(function (value) {
             multilinePlainTextField.innerHTML = value;
+            VSS.resize("auto", multilinePlainTextField.scrollHeight);
         });
 
     });
