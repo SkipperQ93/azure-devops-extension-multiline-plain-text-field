@@ -1,10 +1,10 @@
 {
     "manifestVersion": 1,
-    "id": "multiline-plain-text-field",
+    "id": "multiline-html-field",
     "publisher": "usama-abdul-aziz",
     "version": "69.0.1",
-    "name": "Multiline Plain Text Field",
-    "description": "A work item custom control for having a simple multiline plain text field.",
+    "name": "Multiline HTML Field",
+    "description": "A work item custom control for having a simple multiline html field.",
     "public": true,
     "categories": ["Azure Boards"],
     "icons": {
@@ -58,15 +58,15 @@
     ],
     "contributions": [
         {
-            "id": "multiline-plain-text-field",
+            "id": "multiline-html-field",
             "type": "ms.vss-work-web.work-item-form-control",
-			"description": "A work item custom control for having a customizable multiline plain text field.",
+			"description": "A work item custom control for having a customizable multiline HTML field.",
             "targets": [
                 "ms.vss-work-web.work-item-form"
             ],
             "properties": {
-                "name": "Multiline Plain Text Field",
-                "description": "A work item custom control for having a customizable multiline plain text field.",
+                "name": "Multiline HTML Field",
+                "description": "A work item custom control for having a customizable multiline HTML field.",
                 "uri": "index.html",
                 "inputs": [
                     {
