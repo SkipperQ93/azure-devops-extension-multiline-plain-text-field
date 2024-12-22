@@ -8,7 +8,7 @@
 
         service.getFieldValue(fieldName).then(function (value) {
             multilinePlainTextField.innerHTML = value;
-            VSS.resize("auto", multilinePlainTextField.scrollHeight);
+            VSS.resize("auto", multilinePlainTextField.scrollHeight + 50);
         });
 
     });
