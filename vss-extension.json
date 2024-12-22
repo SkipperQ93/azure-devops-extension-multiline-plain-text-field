@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "multiline-html-field",
     "publisher": "usama-abdul-aziz",
-    "version": "69.0.13",
+    "version": "69.0.14",
     "name": "Multiline HTML Field",
     "description": "A work item custom control for having a simple multiline html field.",
     "public": true,
