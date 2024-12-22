@@ -4,7 +4,7 @@
         var rows = VSS.getConfiguration().witInputs.Rows;
 
         var heightInPixels = rows * 20 + 6;
-        VSS.resize("auto", heightInPixels);
+        VSS.resize("auto", "auto");
 
         var multilinePlainTextField = document.getElementById('multilineHtmlField');
         multilinePlainTextField.rows = rows;
