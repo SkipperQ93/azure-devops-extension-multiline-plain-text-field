@@ -7,6 +7,7 @@
         multilinePlainTextField.rows = rows;
 
         service.getFieldValue(fieldName).then(function (value) {
+            value.replaceAll("color:black", "color:white");
             multilinePlainTextField.innerHTML = value;
             VSS.resize("auto", multilinePlainTextField.scrollHeight + 50);
         });
