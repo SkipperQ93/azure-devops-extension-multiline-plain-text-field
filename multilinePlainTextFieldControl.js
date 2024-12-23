@@ -4,13 +4,14 @@
         var rows = VSS.getConfiguration().witInputs.Rows;
 
         var heightInPixels = rows * 20 + 6;
-        VSS.resize("auto", heightInPixels); 
+        VSS.resize("auto", heightInPixels);
 
         var multilinePlainTextField = document.getElementById('multilinePlainTextField');
         multilinePlainTextField.rows = rows;
 
         service.getFieldValue(fieldName).then(function (value) {
             multilinePlainTextField.value = value;
+            multilinePlainTextField.style.height = `${heightInPixels}px`
         });
 
         multilinePlainTextField.oninput = function() {
