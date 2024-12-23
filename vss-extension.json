@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "multiline-plain-text-field",
     "publisher": "usama-abdul-aziz",
-    "version": "69.0.1",
+    "version": "69.0.2",
     "name": "Multiline Plain Text Field",
     "description": "A work item custom control for having a simple multiline plain text field.",
     "public": true,
