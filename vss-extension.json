@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "multiline-html-field",
     "publisher": "usama-abdul-aziz",
-    "version": "69.0.14",
+    "version": "69.0.15",
     "name": "Multiline HTML Field",
     "description": "A work item custom control for having a simple multiline html field.",
     "public": true,
@@ -74,9 +74,6 @@
                         "name": "Field",
                         "description": "Select a field for reading and saving value.",
                         "type": "WorkitemField",
-                        "properties": {
-                            "workItemFieldTypes": ["String", "PlainText", "HTML"]
-                        },
                         "validation": {
                             "dataType": "String",
                             "isRequired": true
